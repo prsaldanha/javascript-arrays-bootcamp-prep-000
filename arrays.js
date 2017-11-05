@@ -21,6 +21,11 @@ function addElementToEndOfArray(sourcearray, element)
     return newarray;
 }
 
+function destructivelyAddElementToEndOfArray(sourcearray, element)
+{
+  return sourcearray.push(element)
+}
+
 function accessElementInArray(sourcearray, index)
 {
     return sourcearray[index];
