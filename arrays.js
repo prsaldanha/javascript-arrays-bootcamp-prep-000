@@ -48,4 +48,3 @@ function removeElementFromEndOfArray(sourcearray)
 {
   return sourcearray.slice(0, sourcearray.length - 1)
 }
-
