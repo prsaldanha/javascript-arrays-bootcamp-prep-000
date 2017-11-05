@@ -15,15 +15,10 @@ function addElementToEndOfArray(sourcearray, element)
     return [...sourcearray, element];
 }
 
-function addElementToEndOfArray(sourcearray, element)
-{
-    var newarray = sourcearray.push(element)
-    return newarray;
-}
-
 function destructivelyAddElementToEndOfArray(sourcearray, element)
 {
-  return sourcearray.push(element)
+  var newarray = sourcearray.push(element)
+  return newarray;
 }
 
 function accessElementInArray(sourcearray, index)
